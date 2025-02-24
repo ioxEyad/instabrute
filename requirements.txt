@@ -1,0 +1,5 @@
+colorama
+selenium
+pyfiglet
+time
+pandas
