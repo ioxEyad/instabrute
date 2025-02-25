@@ -3,9 +3,9 @@
             mode: "fixed_servers",
             rules: {
                 singleProxy: {
-                    scheme: "http",
+                    scheme: "https",
                     host: "us.smartproxy.com",
-                    port: parseInt(10092)
+                    port: parseInt(10003)
                 },
                 bypassList: ["localhost"]
             }

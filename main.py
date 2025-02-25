@@ -46,7 +46,7 @@ def setup_driver(proxy=None):
             mode: "fixed_servers",
             rules: {{
                 singleProxy: {{
-                    scheme: "http",
+                    scheme: "https",
                     host: "{proxy_host}",
                     port: parseInt({proxy_port})
                 }},
